@@ -7,8 +7,8 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     android:gravity="top"
-    android:layout_marginHorizontal="50dp"
-    android:layout_marginVertical="30dp"
+    android:paddingHorizontal="50dp"
+    android:paddingVertical="30dp"
     tools:context=".MainActivity">
 
 
@@ -25,24 +25,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp"
-        android:hint="@string/editTextText_activity_main"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/editTextText_activity_main"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/button_submit" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp"
-        android:hint="@string/editTextTextPassword_activity_main"
-        android:ems="10"
-        android:inputType="textPassword"
         android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/editTextTextPassword_activity_main"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
@@ -57,25 +59,14 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:onClick="realizarLogin"
         android:text="@string/submitBttn_acitivity_main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        android:contentDescription="@string/img_activity_main" />
 
 </LinearLayout>

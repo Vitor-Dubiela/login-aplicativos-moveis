@@ -2,7 +2,6 @@ package com.example.loginvitordubiela
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.example.loginvitordubiela.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
@@ -25,6 +24,4 @@ class HomeActivity : AppCompatActivity() {
             finish()
         }
     }
-
-    fun voltar(view: View) {}
 }

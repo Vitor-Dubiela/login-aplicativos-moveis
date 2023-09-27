@@ -9,5 +9,12 @@
     <string name="check_activity_main">Aceito os termos</string>
     <string name="submitBttn_acitivity_main">Entrar</string>
     <string name="img_activity_main">Image</string>
+    <string name="msg_empty_fields">Preencha os campos de Nome e Senha.</string>
+    <string name="msg_invalid_user">Usuário inválido.</string>
+    <string name="msg_term_not_checked">Os termos devem ser aceitos para prosseguir.</string>
+
+    <!-- Strings used for the activity_home -->
+    <string name="title_activity_home">Você está logado.</string>
+    <string name="voltarBttn_activity_home">Log out</string>
 
 </resources>
