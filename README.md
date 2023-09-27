@@ -1,2 +1,2 @@
-# login-aplicativos-moveis
-Atividade da Disciplina de Aplicativos Moveis
+# Vitor Dubiela
+Atividade LOGIN, da Disciplina de Aplicativos Moveis.
