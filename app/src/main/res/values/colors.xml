@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- activity_main color -->
+    <color name="editText_activity_main">#40000000</color>
 </resources>
